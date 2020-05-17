@@ -10,6 +10,9 @@ namespace ONP
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("ONP stack test passed: " + ONP.Test.Stack());
+
+            Console.ReadLine();
         }
     }
 }
